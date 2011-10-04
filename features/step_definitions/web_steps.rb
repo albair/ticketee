@@ -2,6 +2,13 @@ Given /^(?:|I )am on (.+)$/ do |page_name|
   visit path_to(page_name)
 end
 
+Given /^there is a project called "([^"]*)"$/ do |name|
+  Factory(:project, :name => name)
+
+end
+
+
+
 When /^I follow "([^"]*)"$/ do |arg1|
   click_link arg1
 end
