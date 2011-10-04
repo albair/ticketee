@@ -675,3 +675,34 @@ Served asset /application.js - 304 Not Modified (0ms)
   [1m[36m (225.2ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
   [1m[35m (0.3ms)[0m  SELECT version FROM `schema_migrations`
   [1m[36m (39.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20111003151731')[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-04 12:23:11 +0200
+  Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT `projects`.* FROM `projects` [0m
+Rendered projects/index.html.erb within layouts/application (53.4ms)
+Completed 200 OK in 147ms (Views: 145.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-04 12:23:12 +0200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-04 12:23:12 +0200
+Served asset /projects.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-04 12:23:12 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-04 12:23:12 +0200
+Served asset /jquery.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-04 12:23:12 +0200
+Served asset /projects.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-04 12:23:12 +0200
+Served asset /application.js - 304 Not Modified (0ms)
