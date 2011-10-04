@@ -706,3 +706,286 @@ Served asset /projects.js - 304 Not Modified (5ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-04 12:23:12 +0200
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/not-here" for 127.0.0.1 at 2011-10-04 12:52:54 +0200
+  Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"not-here"}
+  [1m[35mProject Load (0.6ms)[0m  SELECT `projects`.* FROM `projects` WHERE `projects`.`id` = ? LIMIT 1  [["id", "not-here"]]
+Completed 404 Not Found in 7ms
+
+ActiveRecord::RecordNotFound (Couldn't find Project with id=not-here):
+  app/controllers/projects_controller.rb:26:in `show'
+
+Rendered /home/alba/.rvm/gems/ruby-1.9.2-p290@proyecto/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /home/alba/.rvm/gems/ruby-1.9.2-p290@proyecto/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+Rendered /home/alba/.rvm/gems/ruby-1.9.2-p290@proyecto/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-04 12:53:06 +0200
+  Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT `projects`.* FROM `projects` [0m
+Rendered projects/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 48ms (Views: 45.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:06 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:06 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:06 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:06 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:06 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:06 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/show" for 127.0.0.1 at 2011-10-04 12:53:13 +0200
+
+ActionController::RoutingError (No route matches [GET] "/show"):
+  
+
+Rendered /home/alba/.rvm/gems/ruby-1.9.2-p290@proyecto/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/edit" for 127.0.0.1 at 2011-10-04 12:53:23 +0200
+
+ActionController::RoutingError (No route matches [GET] "/edit"):
+  
+
+Rendered /home/alba/.rvm/gems/ruby-1.9.2-p290@proyecto/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-04 12:53:26 +0200
+  Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.5ms)[0m  SELECT `projects`.* FROM `projects` 
+Rendered projects/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 29ms (Views: 24.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:26 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:26 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:26 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:26 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:26 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:26 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2011-10-04 12:53:28 +0200
+  Processing by ProjectsController#new as HTML
+Rendered projects/_form.html.erb (12.7ms)
+Rendered projects/new.html.erb within layouts/application (84.5ms)
+Completed 200 OK in 97ms (Views: 94.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:28 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:28 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:28 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:28 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:28 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:28 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2011-10-04 12:53:30 +0200
+  Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ctc568nBXVKQnX4BisSDd/EL1ZZRHwNWIwNqZYYXxaY=", "project"=>{"name"=>""}, "commit"=>"Create Project"}
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Rendered projects/_form.html.erb (5.6ms)
+Rendered projects/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 29ms (Views: 16.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:30 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:30 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:30 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:30 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:30 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:30 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2011-10-04 12:53:40 +0200
+  Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ctc568nBXVKQnX4BisSDd/EL1ZZRHwNWIwNqZYYXxaY=", "project"=>{"name"=>"alba3"}, "commit"=>"Create Project"}
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (39.2ms)[0m  INSERT INTO `projects` (`created_at`, `name`, `updated_at`) VALUES (?, ?, ?)  [["created_at", Tue, 04 Oct 2011 10:53:41 UTC +00:00], ["name", "alba3"], ["updated_at", Tue, 04 Oct 2011 10:53:41 UTC +00:00]]
+  [1m[36m (44.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/projects/6
+Completed 302 Found in 100ms
+
+
+Started GET "/projects/6" for 127.0.0.1 at 2011-10-04 12:53:41 +0200
+  Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mProject Load (0.4ms)[0m  SELECT `projects`.* FROM `projects` WHERE `projects`.`id` = ? LIMIT 1  [["id", "6"]]
+Rendered projects/show.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 27ms (Views: 22.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:41 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:41 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:41 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:41 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:41 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:41 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/projects/6/edit" for 127.0.0.1 at 2011-10-04 12:53:44 +0200
+  Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT `projects`.* FROM `projects` WHERE `projects`.`id` = ? LIMIT 1[0m  [["id", "6"]]
+Rendered projects/_form.html.erb (12.1ms)
+Rendered projects/edit.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 29ms (Views: 23.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:44 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:44 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:44 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:44 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:44 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:44 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/projects/6" for 127.0.0.1 at 2011-10-04 12:53:49 +0200
+  Processing by ProjectsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ctc568nBXVKQnX4BisSDd/EL1ZZRHwNWIwNqZYYXxaY=", "project"=>{"name"=>"alba3"}, "commit"=>"Update Project", "id"=>"6"}
+  [1m[35mProject Load (0.1ms)[0m  SELECT `projects`.* FROM `projects` WHERE `projects`.`id` = ? LIMIT 1  [["id", "6"]]
+  [1m[36mSQL (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/projects/6
+Completed 302 Found in 8ms
+
+
+Started GET "/projects/6" for 127.0.0.1 at 2011-10-04 12:53:49 +0200
+  Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT `projects`.* FROM `projects` WHERE `projects`.`id` = ? LIMIT 1[0m  [["id", "6"]]
+Rendered projects/show.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 15ms (Views: 13.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:49 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-04 12:53:49 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:49 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:49 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:49 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-04 12:53:49 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (116.4ms)[0m  DROP DATABASE IF EXISTS `ticketee_test`
+  [1m[36m (0.2ms)[0m  [1mCREATE DATABASE `ticketee_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (115.4ms)[0m  CREATE TABLE `projects` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (107.4ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (0.4ms)[0m  SHOW KEYS FROM `schema_migrations`
+  [1m[36m (250.1ms)[0m  [1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM `schema_migrations`
+  [1m[36m (48.0ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20111003151731')[0m

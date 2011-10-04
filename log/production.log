@@ -1,0 +1,52 @@
+Migrating to CreateProjects (20111003151731)
+
+
+Started GET "/projects/not-here" for 127.0.0.1 at 2011-10-04 13:01:52 +0200
+  Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"not-here"}
+Completed 404 Not Found in 6ms
+
+ActiveRecord::RecordNotFound (Couldn't find Project with id=not-here):
+  app/controllers/projects_controller.rb:26:in `show'
+
+Rendered /home/alba/.rvm/gems/ruby-1.9.2-p290@proyecto/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /home/alba/.rvm/gems/ruby-1.9.2-p290@proyecto/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/alba/.rvm/gems/ruby-1.9.2-p290@proyecto/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.3ms)
+
+
+Started GET "/" for 192.168.5.20 at 2011-10-04 13:11:46 +0200
+  Processing by ProjectsController#index as HTML
+Rendered projects/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 100ms
+
+ActionView::Template::Error (application.css isn't precompiled):
+    9:           <% end %>
+    10:       </title>
+    11: 
+    12:       <%= stylesheet_link_tag    "application" %>
+    13:       <%= javascript_include_tag "application" %>
+    14:       <%= csrf_meta_tags %>
+    15:     </head>
+  app/views/layouts/application.html.erb:12:in `_app_views_layouts_application_html_erb___4103215200646376220_31768300'
+
+
+
+Started GET "/favicon.ico" for 192.168.5.20 at 2011-10-04 13:11:46 +0200
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+
+
+Started GET "/favicon.ico" for 192.168.5.20 at 2011-10-04 13:11:49 +0200
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+
+
+Started GET "/project/not-here" for 192.168.5.20 at 2011-10-04 13:12:13 +0200
+
+ActionController::RoutingError (No route matches [GET] "/project/not-here"):
+  
+
