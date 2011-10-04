@@ -2,13 +2,6 @@ Given /^(?:|I )am on (.+)$/ do |page_name|
   visit path_to(page_name)
 end
 
-Given /^there is a project called "([^"]*)"$/ do |name|
-  Factory(:project, :name => name)
-
-end
-
-
-
 When /^I follow "([^"]*)"$/ do |arg1|
   click_link arg1
 end
@@ -22,14 +15,6 @@ When /^I press "([^"]*)"$/ do |arg1|
   click_button arg1
 end
 
-
-Then /^(?:|I )should see "([^"]*)"$/ do |text|
-  if page.respond_to? :should
-    page.should have_content(text)
-  else
-    assert page.has_content?(text)
-  end
-end
 
 Then /^(?:|I )should see \/([^\/]*)\/$/ do |regexp|
   regexp = Regexp.new(regexp)
@@ -56,3 +41,14 @@ Then /^(?:|I )should be on (.+)$/ do |page_name|
     assert_equal path_to(page_name), current_path
   end
 end
+
+Then /^(?:|I )should see "([^\"]*)"(?: within "([^\"]*)")?$/ do |text,selector|
+  with_scope(selector,:css_id) do
+    if defined?(Spec::Rails::Matchers)
+      page.should have_content(text)
+    else
+      assert page.has_content?(text)
+    end
+  end
+end
+
