@@ -273,3 +273,99 @@ Started GET "/" for 127.0.0.1 at 2011-10-04 09:43:06 +0200
 Rendered projects/index.html.erb within layouts/application (55.1ms)
 Completed 200 OK in 147ms (Views: 147.0ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-04 10:08:22 +0200
+  Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.4ms)[0m  SELECT `projects`.* FROM `projects` 
+Rendered projects/index.html.erb within layouts/application (55.5ms)
+Completed 200 OK in 147ms (Views: 145.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2011-10-04 10:08:22 +0200
+  Processing by ProjectsController#new as HTML
+Rendered projects/_form.html.erb (7.6ms)
+Rendered projects/new.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.9ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-04 10:13:29 +0200
+  Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.4ms)[0m  SELECT `projects`.* FROM `projects` 
+Rendered projects/index.html.erb within layouts/application (55.0ms)
+Completed 200 OK in 147ms (Views: 146.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2011-10-04 10:13:29 +0200
+  Processing by ProjectsController#new as HTML
+Rendered projects/_form.html.erb (7.5ms)
+Rendered projects/new.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-04 10:16:52 +0200
+  Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.4ms)[0m  SELECT `projects`.* FROM `projects` 
+Rendered projects/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 147ms (Views: 145.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2011-10-04 10:16:52 +0200
+  Processing by ProjectsController#new as HTML
+Rendered projects/_form.html.erb (7.1ms)
+Rendered projects/new.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.6ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-04 10:18:10 +0200
+  Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT `projects`.* FROM `projects` 
+Rendered projects/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 148ms (Views: 146.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2011-10-04 10:18:10 +0200
+  Processing by ProjectsController#new as HTML
+Rendered projects/_form.html.erb (8.0ms)
+Rendered projects/new.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.8ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-04 10:18:38 +0200
+  Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.4ms)[0m  SELECT `projects`.* FROM `projects` 
+Rendered projects/index.html.erb within layouts/application (54.6ms)
+Completed 200 OK in 146ms (Views: 144.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2011-10-04 10:18:38 +0200
+  Processing by ProjectsController#new as HTML
+Rendered projects/_form.html.erb (8.0ms)
+Rendered projects/new.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.8ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-04 10:24:33 +0200
+  Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT `projects`.* FROM `projects` 
+Rendered projects/index.html.erb within layouts/application (57.3ms)
+Completed 200 OK in 153ms (Views: 151.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2011-10-04 10:24:33 +0200
+  Processing by ProjectsController#new as HTML
+Rendered projects/_form.html.erb (7.1ms)
+Rendered projects/new.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
