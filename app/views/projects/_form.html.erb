@@ -1,8 +1,11 @@
 <%= form_for(@project) do |f| %>
-    <p>
-        <%= f.label :name, "Project name"%>
 
-        <%= f.text_field :name,:size=>"30" %>
+    <%= f.error_messages %>
+
+    <p>
+        <%= f.label :name%>
+
+        <%= f.text_field :name, :size=>"30" %>
     </p>
     <%= f.submit %>
 <% end %>
