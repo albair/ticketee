@@ -9,11 +9,12 @@
           <% end %>
 
           <nav>
-            <% if user_signed_in? %>
+             <% if user_signed_in? %>
                 Signed in as <%= current_user.email %>
-            <% else %>
+             <% else %>
                 <%= link_to "Sign up", new_user_registration_path %>
-            <% end %>
+                <%= link_to "Sign in", new_user_session_path %>
+             <% end %>
           </nav>
 
       </title>
