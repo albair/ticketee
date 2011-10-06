@@ -9,6 +9,10 @@ Ticketee::Application.routes.draw do
   get '/awaiting_confirmation',
     :to => "users#confirmation",
     :as => 'confirm_user'
+  put '/admin/users/:user_id/permissions',
+    :to => 'admin/permissions#update',
+    :as => :update_user_permissions
+
 
 
   resources :projects do
@@ -16,6 +20,13 @@ Ticketee::Application.routes.draw do
   end
 
   root :to => "projects#index"
+
+  namespace :admin do
+    root :to => "base#index"
+    resources :users do
+      resources :permissions
+    end
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -73,9 +84,6 @@ Ticketee::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id(.:format)))'
-  namespace :admin do
-    root :to => "base#index"
-    resources :users
-  end
+
 
 end
