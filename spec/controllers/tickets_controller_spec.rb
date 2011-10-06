@@ -17,6 +17,11 @@ describe TicketsController do
 
   context "with permission to view the project" do
 
+    def cannot_update_tickets!
+      response.should redirect_to(project)
+      flash[:alert].should eql("You cannot edit tickets on this project.")
+    end
+
     before do
       sign_in(:user, user)
       Permission.create!(:user => user, :thing => project, :action => "view")
