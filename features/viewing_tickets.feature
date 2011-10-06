@@ -7,7 +7,9 @@ Feature: Viewing tickets
     Given there are the following users:
     | email             | password |
     | user@ticketee.com | password |
+    And I am signed in as them
     And there is a project called "TextMate 2"
+    And "user@ticketee.com" can view the "TextMate 2" project
     And "user@ticketee.com" has created a ticket for this project:
     | title          | description                   |
     | Make it shiny! | Gradients! Starbursts! Oh my! |
@@ -26,6 +28,7 @@ Feature: Viewing tickets
     And I should see "Gradients! Starbursts! Oh my!"
 
     When I follow "Ticketee"
+    And "user@ticketee.com" can view the "Internet Explorer" project
     And I follow "Internet Explorer"
     Then I should see "Standards compliance"
     And I should not see "Make it shiny!"

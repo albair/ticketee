@@ -12,4 +12,6 @@ class User < ActiveRecord::Base
     "#{email} (#{admin? ? "Admin" : "User"})"
   end
 
+
+
 end
