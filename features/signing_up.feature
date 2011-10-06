@@ -2,6 +2,7 @@ Feature: Signing up
   In order to be attributed for my work
   As a user
   I want to be able to sign up
+
   Scenario: Signing up
     Given I am on the homepage
     When I follow "Sign up"
