@@ -9,8 +9,7 @@ class Admin::PermissionsController < Admin::BaseController
 
     def update
       @user.permissions.clear
-      permissions = params[:permissions] || []
-      permissions.each do |id, permissions|
+      params[:permissions].each do |id, permissions|
         project = Project.find(id)
         permissions.each do |permission, checked|
           Permission.create!(:user => @user, :thing => project, :action => permission)
