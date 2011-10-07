@@ -11966,3 +11966,109 @@ Migrating to CreateAssets (20111007082714)
   [1m[36m (49.9ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20111005134427')[0m
   [1m[35m (49.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20111005082714')
   [1m[36m (49.9ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20111005095012')[0m
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-07 11:46:06 +0200
+  Processing by ProjectsController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2011-10-07 11:46:07 +0200
+  Processing by Devise::SessionsController#new as HTML
+Rendered devise/shared/_links.erb (2.5ms)
+Rendered devise/sessions/new.html.erb within layouts/application (55.9ms)
+Compiled application.css  (11ms)  (pid 3358)
+Compiled assets.css  (20ms)  (pid 3358)
+Compiled files.css  (1ms)  (pid 3358)
+Compiled application.js  (14ms)  (pid 3358)
+Compiled assets.js  (109ms)  (pid 3358)
+Compiled files.js  (1ms)  (pid 3358)
+Completed 200 OK in 349ms (Views: 320.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-07 11:46:07 +0200
+Served asset /application.css - 304 Not Modified (64ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /tickets.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/admin/permissions.css?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /admin/permissions.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /projects.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/assets.css?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /assets.css - 200 OK (11ms)
+
+
+Started GET "/assets/files.css?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /files.css - 200 OK (8ms)
+
+
+Started GET "/assets/admin/users.css?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /admin/users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /jquery.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/admin/permissions.js?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /admin/permissions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/admin/users.js?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /admin/users.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/assets.js?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /assets.js - 200 OK (3ms)
+
+
+Started GET "/assets/files.js?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /files.js - 200 OK (7ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /projects.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /tickets.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-07 11:46:08 +0200
+Served asset /application.js - 200 OK (66ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateProjects (20111003151731)
+Migrating to CreateTickets (20111004135749)
+Migrating to DeviseCreateUsers (20111005074651)
+Migrating to AddConfirmableFieldsToUsers (20111005082714)
+Migrating to AddUserIdToTickets (20111005095012)
+Migrating to AddAdminToUsers (20111005134427)
+Migrating to CreatePermissions (20111005164140)
+Migrating to AddAttachmentAssetToTicket (20111007073602)
+Migrating to CreateAssets (20111007082714)
+  [1m[35m (0.1ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.2ms)[0m  [1mSHOW KEYS FROM `assets`[0m
+  [1m[35m (0.1ms)[0m  SHOW KEYS FROM `permissions`
+  [1m[36m (0.1ms)[0m  [1mSHOW KEYS FROM `projects`[0m
+  [1m[35m (0.2ms)[0m  SHOW KEYS FROM `tickets`
+  [1m[36m (0.2ms)[0m  [1mSHOW KEYS FROM `users`[0m

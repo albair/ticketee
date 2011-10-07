@@ -4,6 +4,9 @@ Ticketee::Application.routes.draw do
 
   #get "users/index"
 
+  resources :files
+
+
   devise_for :users, :controllers => { :registrations => "registrations" }
 
   get '/awaiting_confirmation',
