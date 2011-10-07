@@ -23,7 +23,7 @@ Given /^I am signed in as "([^\"]*)"$/ do |email|
   steps("Given I am signed in as them")
 end
 
-  When /^I check "([^"]*)"$/ do |field|
+When /^I check "([^"]*)"$/ do |field|
   check field
 end
 
