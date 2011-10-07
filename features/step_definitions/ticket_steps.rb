@@ -5,4 +5,8 @@ Given /^"([^"]*)" has created a ticket for this project:$/ do |email, table|
   end
 end
 
+When /^I attach the file "([^"]*)" to "([^"]*)"$/ do |path, field|
+  attach_file(field, path)
+end
+
 
