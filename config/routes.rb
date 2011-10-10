@@ -19,8 +19,13 @@ Ticketee::Application.routes.draw do
 
 
   resources :projects do
-  resources :tickets
+    resources :tickets
   end
+
+  resources :tickets do
+    resources :comments
+  end
+
 
   root :to => "projects#index"
 

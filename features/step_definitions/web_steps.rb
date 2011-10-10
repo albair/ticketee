@@ -2,9 +2,7 @@ Given /^(?:|I )am on (.+)$/ do |page_name|
   visit path_to(page_name)
 end
 
-When /^I follow "([^"]*)"$/ do |arg1|
-  click_link (arg1)
-end
+
 
 When /^I fill in "([^"]*)" with "([^"]*)"$/ do |arg1, arg2|
  fill_in arg1, :with=>arg2 # express the regexp above with the code you wish you had
@@ -52,6 +50,14 @@ Then /^(?:|I )should see "([^\"]*)"(?: within "([^\"]*)")?$/ do |text, selector|
     end
   end
 end
+
+When /^(?:|I )follow "([^"]*)"(?: within "([^"]*)")?$/ do |link, selector|
+  with_scope(selector) do
+    click_link(link)
+  end
+end
+
+
 
 
 
