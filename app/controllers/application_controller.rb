@@ -1,5 +1,7 @@
 class ApplicationController < ActionController::Base
+  before_filter :find_states
   protect_from_forgery
+
 
   private
     def authorize_admin!
@@ -9,5 +11,10 @@ class ApplicationController < ActionController::Base
       redirect_to root_path
       end
     end
+
+  def find_states
+    @states = State.all
+  end
+
 
 end
