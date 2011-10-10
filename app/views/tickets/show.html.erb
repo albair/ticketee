@@ -29,6 +29,8 @@
             <% end %>
         </div>
      <%= render "comments/form" %>
+     <%= render @ticket.state if @ticket.state %>
+
 
     <%= authorized?("edit tickets", @project) do %>
         <%= link_to "Edit Ticket", [:edit, @project, @ticket] %>

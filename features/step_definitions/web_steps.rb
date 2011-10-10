@@ -3,14 +3,28 @@ Given /^(?:|I )am on (.+)$/ do |page_name|
 end
 
 
-
 When /^I fill in "([^"]*)" with "([^"]*)"$/ do |arg1, arg2|
  fill_in arg1, :with=>arg2 # express the regexp above with the code you wish you had
 end
 
 
 When /^I press "([^"]*)"$/ do |arg1|
+
   click_button (arg1)
+
+end
+
+When /^(?:|I )follow "([^"]*)"(?: within "([^"]*)")?$/ do |link, locator|
+  with_scope(locator) do
+    click_link(link)
+  end
+end
+
+
+When /^(?:|I )select "(.+)" from "(.+)"$/ do |value, field|
+
+  select(value, :from => field)
+
 end
 
 
@@ -50,15 +64,5 @@ Then /^(?:|I )should see "([^\"]*)"(?: within "([^\"]*)")?$/ do |text, selector|
     end
   end
 end
-
-When /^(?:|I )follow "([^"]*)"(?: within "([^"]*)")?$/ do |link, selector|
-  with_scope(selector) do
-    click_link(link)
-  end
-end
-
-
-
-
 
 
