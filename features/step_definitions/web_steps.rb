@@ -27,6 +27,11 @@ When /^(?:|I )select "(.+)" from "(.+)"$/ do |value, field|
 
 end
 
+Then /^show me the page$/ do
+  save_and_open_page
+end
+
+
 
 Then /^(?:|I )should see \/([^\/]*)\/$/ do |regexp|
   regexp = Regexp.new(regexp)
@@ -64,5 +69,7 @@ Then /^(?:|I )should see "([^\"]*)"(?: within "([^\"]*)")?$/ do |text, selector|
     end
   end
 end
+
+
 
 
