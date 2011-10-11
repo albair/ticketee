@@ -23,7 +23,7 @@ Feature: Creating comments
       Then I should see "Comment has been created."
       Then I should see "Added a comment!" within "#comments"
 
-    Scenario: Creating an invalid comment
+    Scenario: Creating an invalid comment             gration
       When I follow "Change a ticket's state"
       And I press "Create Comment"
       Then I should see "Comment has not been created."
