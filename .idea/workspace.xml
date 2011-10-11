@@ -23,91 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="deleting_tags.feature" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/deleting_tags.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="26" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ticket_steps.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/step_definitions/ticket_steps.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="20" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tickets_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="26" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_tag.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tags/_tag.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="12" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="searching.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/searching.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="24" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
+            <state line="42" column="18" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.erb">
+      <file leaf-file-name="_tag.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/tags/_tag.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="35" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="21" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="8" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ticket.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/models/ticket.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="51" selection-start="305" selection-end="305" vertical-scroll-proportion="0.13108614">
+            <state line="8" column="70" selection-start="398" selection-end="398" vertical-scroll-proportion="0.14457831">
               <folding />
             </state>
           </provider>
@@ -130,15 +58,15 @@
         <option value="$PROJECT_DIR$/app/views/tags/remove.js.erb" />
         <option value="$PROJECT_DIR$/app/controllers/tags_controller.rb" />
         <option value="$PROJECT_DIR$/features/deleting_tags.feature" />
-        <option value="$PROJECT_DIR$/app/views/tags/_tag.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/projects/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/tickets_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/ticket.rb" />
+        <option value="$PROJECT_DIR$/app/views/projects/show.html.erb" />
         <option value="$PROJECT_DIR$/features/step_definitions/ticket_steps.rb" />
         <option value="$PROJECT_DIR$/features/searching.feature" />
-        <option value="$PROJECT_DIR$/app/models/ticket.rb" />
+        <option value="$PROJECT_DIR$/app/views/tags/_tag.html.erb" />
       </list>
     </option>
   </component>
@@ -203,52 +131,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="features" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="step_definitions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -290,64 +172,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ticketee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -876,65 +700,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tags/_tag.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="8" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+        <state line="23" column="8" selection-start="477" selection-end="477" vertical-scroll-proportion="0.41566265">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0">
+        <state line="52" column="0" selection-start="878" selection-end="878" vertical-scroll-proportion="0.8754448">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="21" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+        <state line="32" column="21" selection-start="695" selection-end="695" vertical-scroll-proportion="0.569395">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="26" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/ticket_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/searching.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="24" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
+        <state line="35" column="4" selection-start="892" selection-end="892" vertical-scroll-proportion="0.6489493">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/ticket.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="51" selection-start="305" selection-end="305" vertical-scroll-proportion="0.13108614">
+        <state line="11" column="39" selection-start="354" selection-end="354" vertical-scroll-proportion="0.19572954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/tickets_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="26" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.407911">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/ticket_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="4" selection-start="524" selection-end="524" vertical-scroll-proportion="0.33246416">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/searching.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="18" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tags/_tag.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="70" selection-start="398" selection-end="398" vertical-scroll-proportion="0.14457831">
           <folding />
         </state>
       </provider>
