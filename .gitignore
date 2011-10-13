@@ -1,7 +1,10 @@
-.bundle
+
+
+config/initializers/mail.rb
+features/sending_emails.feature
+
+ .bundle
 db/*.sqlite3
 log/*.log
 tmp/**/*
 public/system
-
-

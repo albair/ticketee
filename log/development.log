@@ -42749,3 +42749,1009 @@ Served asset /users.js - 304 Not Modified (0ms)
   [1m[35m (49.9ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20111005082714')
   [1m[36m (49.9ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20111005095012')[0m
   [1m[35m (49.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20111010084941')
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-13 09:50:18 +0200
+  Processing by ProjectsController#index as HTML
+  [1m[36mState Load (0.6ms)[0m  [1mSELECT `states`.* FROM `states` [0m
+Completed   in 6ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2011-10-13 09:50:18 +0200
+  Processing by Devise::SessionsController#new as HTML
+  [1m[35mState Load (0.3ms)[0m  SELECT `states`.* FROM `states` 
+Rendered devise/shared/_links.erb (38.5ms)
+Rendered devise/sessions/new.html.erb within layouts/application (90.0ms)
+Compiled application.css  (20ms)  (pid 3504)
+Compiled admin/permissions.css  (34ms)  (pid 3504)
+Compiled admin/states.css  (21ms)  (pid 3504)
+Compiled admin/users.css  (10ms)  (pid 3504)
+Compiled comments.css  (16ms)  (pid 3504)
+Compiled files.css  (17ms)  (pid 3504)
+Compiled projects.css  (14ms)  (pid 3504)
+Compiled tags.css  (18ms)  (pid 3504)
+Compiled tickets.css  (9ms)  (pid 3504)
+Compiled users.css  (10ms)  (pid 3504)
+Compiled application.js  (27ms)  (pid 3504)
+Compiled jquery.js  (22ms)  (pid 3504)
+Compiled jquery_ujs.js  (18ms)  (pid 3504)
+Compiled admin/permissions.js  (209ms)  (pid 3504)
+Compiled admin/states.js  (13ms)  (pid 3504)
+Compiled admin/users.js  (8ms)  (pid 3504)
+Compiled comments.js  (7ms)  (pid 3504)
+Compiled files.js  (3ms)  (pid 3504)
+Compiled projects.js  (8ms)  (pid 3504)
+Compiled tags.js  (4ms)  (pid 3504)
+Compiled tickets.js  (11ms)  (pid 3504)
+Compiled users.js  (20ms)  (pid 3504)
+Completed 200 OK in 1269ms (Views: 1176.7ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:19 +0200
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/admin/permissions.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /admin/permissions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/admin/states.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /admin/states.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /comments.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/admin/users.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /admin/users.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/files.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /files.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /projects.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /tags.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /tickets.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/admin/permissions.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /admin/permissions.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/admin/states.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /admin/states.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin/users.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /admin/users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /comments.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/files.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /files.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /projects.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /tags.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /tickets.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:20 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+  Processing by ProjectsController#index as HTML
+  [1m[36mState Load (0.3ms)[0m  [1mSELECT `states`.* FROM `states` [0m
+Completed   in 4ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+  Processing by Devise::SessionsController#new as HTML
+  [1m[35mState Load (0.4ms)[0m  SELECT `states`.* FROM `states` 
+Rendered devise/shared/_links.erb (2.0ms)
+Rendered devise/sessions/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 38ms (Views: 27.0ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/admin/permissions.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /admin/permissions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /admin/states.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /admin/users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /tags.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/permissions.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /admin/permissions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /admin/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /admin/users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /tags.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-13 09:50:29 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2011-10-13 10:12:45 +0200
+  Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OugrrBQGE1P1noEXlaENb1P+ZfookhaIp0w+nPj2QSw=", "user"=>{"email"=>"albaiglesiasruiz@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mState Load (0.2ms)[0m  [1mSELECT `states`.* FROM `states` [0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'albaiglesiasruiz@gmail.com' LIMIT 1
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2011-10-11 10:18:03', `current_sign_in_at` = '2011-10-13 08:12:45', `sign_in_count` = 23, `updated_at` = '2011-10-13 08:12:45' WHERE `users`.`id` = 1
+  [1m[36m (67.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 326ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-10-13 10:12:45 +0200
+  Processing by ProjectsController#index as HTML
+  [1m[35mState Load (0.2ms)[0m  SELECT `states`.* FROM `states` 
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mProject Load (0.4ms)[0m  SELECT `projects`.* FROM `projects` 
+Rendered projects/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 79ms (Views: 70.4ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-13 10:12:45 +0200
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/admin/permissions.css?body=1" for 127.0.0.1 at 2011-10-13 10:12:45 +0200
+Served asset /admin/permissions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.css?body=1" for 127.0.0.1 at 2011-10-13 10:12:45 +0200
+Served asset /files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.css?body=1" for 127.0.0.1 at 2011-10-13 10:12:45 +0200
+Served asset /admin/states.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2011-10-13 10:12:45 +0200
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.css?body=1" for 127.0.0.1 at 2011-10-13 10:12:45 +0200
+Served asset /admin/users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-13 10:12:45 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2011-10-13 10:12:45 +0200
+Served asset /tags.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/permissions.js?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /admin/permissions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.js?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /admin/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.js?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /admin/users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.js?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /tags.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-13 10:12:46 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+  Processing by Admin::BaseController#index as HTML
+  [1m[36mState Load (0.4ms)[0m  [1mSELECT `states`.* FROM `states` [0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Rendered admin/base/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 99ms (Views: 89.9ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin/permissions.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /admin/permissions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /admin/users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /admin/states.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /tags.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /tickets.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/permissions.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /admin/permissions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /admin/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /admin/users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /tags.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:35 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin/users" for 127.0.0.1 at 2011-10-13 10:21:37 +0200
+  Processing by Admin::UsersController#index as HTML
+  [1m[36mState Load (0.3ms)[0m  [1mSELECT `states`.* FROM `states` [0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT `users`.* FROM `users` ORDER BY email[0m
+Rendered admin/users/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 123ms (Views: 111.8ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:37 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/permissions.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:37 +0200
+Served asset /admin/permissions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:37 +0200
+Served asset /admin/states.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:37 +0200
+Served asset /admin/users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:37 +0200
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:37 +0200
+Served asset /files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /tags.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/permissions.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /admin/permissions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /admin/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /admin/users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /tags.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:38 +0200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/admin/users/1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+  Processing by Admin::UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mState Load (0.3ms)[0m  SELECT `states`.* FROM `states` 
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", "1"]]
+Rendered admin/users/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 27ms (Views: 17.4ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/permissions.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /admin/permissions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /admin/states.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /admin/users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /tags.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/permissions.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /admin/permissions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /admin/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /admin/users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /tags.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:40 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin/users/1/permissions" for 127.0.0.1 at 2011-10-13 10:21:42 +0200
+  Processing by Admin::PermissionsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[36mState Load (0.3ms)[0m  [1mSELECT `states`.* FROM `states` [0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPermission Load (0.4ms)[0m  SELECT `permissions`.* FROM `permissions` WHERE `permissions`.`user_id` = 1
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT `projects`.* FROM `projects` [0m
+Rendered admin/permissions/index.html.erb within layouts/application (46.2ms)
+Completed 200 OK in 193ms (Views: 58.5ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/admin/permissions.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:42 +0200
+Served asset /admin/permissions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:42 +0200
+Served asset /admin/states.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:42 +0200
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:42 +0200
+Served asset /admin/users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:42 +0200
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:42 +0200
+Served asset /files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:42 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:42 +0200
+Served asset /tags.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:42 +0200
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-10-13 10:21:42 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:42 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:43 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/permissions.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:43 +0200
+Served asset /admin/permissions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:43 +0200
+Served asset /admin/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:43 +0200
+Served asset /admin/users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:43 +0200
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:43 +0200
+Served asset /files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:43 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:43 +0200
+Served asset /tags.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:43 +0200
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:43 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-13 10:21:43 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/admin/users/1/permissions" for 127.0.0.1 at 2011-10-13 10:22:01 +0200
+  Processing by Admin::PermissionsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OugrrBQGE1P1noEXlaENb1P+ZfookhaIp0w+nPj2QSw=", "permissions"=>{"1"=>{"view"=>"false", "create tickets"=>"false", "edit tickets"=>"false", "delete tickets"=>"false", "change states"=>"false"}, "2"=>{"view"=>"false", "create tickets"=>"false", "edit tickets"=>"false", "delete tickets"=>"false", "change states"=>"false"}, "3"=>{"view"=>"false", "create tickets"=>"false", "edit tickets"=>"false", "delete tickets"=>"false", "change states"=>"false"}, "4"=>{"view"=>"false", "create tickets"=>"false", "edit tickets"=>"false", "delete tickets"=>"false", "change states"=>"false"}}, "commit"=>"Update", "user_id"=>"1"}
+  [1m[35mState Load (0.3ms)[0m  SELECT `states`.* FROM `states` 
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPermission Load (0.3ms)[0m  [1mSELECT `permissions`.* FROM `permissions` WHERE `permissions`.`user_id` = 1[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mProject Load (0.5ms)[0m  SELECT `projects`.* FROM `projects` WHERE `projects`.`id` = ? LIMIT 1  [["id", "1"]]
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)  [["action", "view"], ["created_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["thing_id", 1], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["user_id", 1]]
+  [1m[36m (54.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["action", "create tickets"], ["created_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["thing_id", 1], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["user_id", 1]]
+  [1m[35m (30.7ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)  [["action", "edit tickets"], ["created_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["thing_id", 1], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["user_id", 1]]
+  [1m[36m (39.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["action", "delete tickets"], ["created_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["thing_id", 1], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["user_id", 1]]
+  [1m[35m (39.3ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.8ms)[0m  INSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)  [["action", "change states"], ["created_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["thing_id", 1], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["user_id", 1]]
+  [1m[36m (47.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mProject Load (0.4ms)[0m  SELECT `projects`.* FROM `projects` WHERE `projects`.`id` = ? LIMIT 1  [["id", "2"]]
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)  [["action", "view"], ["created_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["thing_id", 2], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["user_id", 1]]
+  [1m[36m (43.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["action", "create tickets"], ["created_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["thing_id", 2], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:01 UTC +00:00], ["user_id", 1]]
+  [1m[35m (45.5ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)  [["action", "edit tickets"], ["created_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["thing_id", 2], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["user_id", 1]]
+  [1m[36m (45.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["action", "delete tickets"], ["created_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["thing_id", 2], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["user_id", 1]]
+  [1m[35m (45.8ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)  [["action", "change states"], ["created_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["thing_id", 2], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["user_id", 1]]
+  [1m[36m (45.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mProject Load (0.3ms)[0m  SELECT `projects`.* FROM `projects` WHERE `projects`.`id` = ? LIMIT 1  [["id", "3"]]
+  [1m[36mSQL (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)  [["action", "view"], ["created_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["thing_id", 3], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["user_id", 1]]
+  [1m[36m (45.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.6ms)[0m  [1mINSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["action", "create tickets"], ["created_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["thing_id", 3], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["user_id", 1]]
+  [1m[35m (37.2ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.7ms)[0m  INSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)  [["action", "edit tickets"], ["created_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["thing_id", 3], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["user_id", 1]]
+  [1m[36m (45.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["action", "delete tickets"], ["created_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["thing_id", 3], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["user_id", 1]]
+  [1m[35m (29.1ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)  [["action", "change states"], ["created_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["thing_id", 3], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["user_id", 1]]
+  [1m[36m (45.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mProject Load (0.4ms)[0m  SELECT `projects`.* FROM `projects` WHERE `projects`.`id` = ? LIMIT 1  [["id", "4"]]
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)  [["action", "view"], ["created_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["thing_id", 4], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["user_id", 1]]
+  [1m[36m (44.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["action", "create tickets"], ["created_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["thing_id", 4], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["user_id", 1]]
+  [1m[35m (45.6ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)  [["action", "edit tickets"], ["created_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["thing_id", 4], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["user_id", 1]]
+  [1m[36m (45.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (1.8ms)[0m  [1mINSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["action", "delete tickets"], ["created_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["thing_id", 4], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["user_id", 1]]
+  [1m[35m (45.3ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO `permissions` (`action`, `created_at`, `thing_id`, `thing_type`, `updated_at`, `user_id`) VALUES (?, ?, ?, ?, ?, ?)  [["action", "change states"], ["created_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["thing_id", 4], ["thing_type", "Project"], ["updated_at", Thu, 13 Oct 2011 08:22:02 UTC +00:00], ["user_id", 1]]
+  [1m[36m (45.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/admin/users/1/permissions
+Completed 302 Found in 1132ms
+
+
+Started GET "/admin/users/1/permissions" for 127.0.0.1 at 2011-10-13 10:22:02 +0200
+  Processing by Admin::PermissionsController#index as HTML
+  Parameters: {"user_id"=>"1"}
+  [1m[35mState Load (0.3ms)[0m  SELECT `states`.* FROM `states` 
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPermission Load (0.8ms)[0m  [1mSELECT `permissions`.* FROM `permissions` WHERE `permissions`.`user_id` = 1[0m
+  [1m[35mProject Load (0.3ms)[0m  SELECT `projects`.* FROM `projects` 
+Rendered admin/permissions/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 54ms (Views: 32.0ms | ActiveRecord: 6.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-10-13 10:22:02 +0200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin/permissions.css?body=1" for 127.0.0.1 at 2011-10-13 10:22:02 +0200
+Served asset /admin/permissions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.css?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /admin/states.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.css?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /admin/users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.css?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /files.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.css?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /tags.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.css?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /tickets.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/permissions.js?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /admin/permissions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/states.js?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /admin/states.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin/users.js?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /admin/users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/files.js?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /files.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /projects.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tags.js?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /tags.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tickets.js?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /tickets.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-10-13 10:22:03 +0200
+Served asset /application.js - 304 Not Modified (0ms)
+Rendered notifier/comment_updated.html.erb (63.4ms)
+Rendered notifier/comment_updated.text.erb (1.2ms)
+
+Sent mail to albaiglesiasruiz@gmail.com (1920ms)
+Date: Thu, 13 Oct 2011 11:24:12 +0200
+From: ticketee@gmail.com
+To: albaiglesiasruiz@gmail.com
+Message-ID: <4e96ae3c4b4a6_11da63add05325f@dev06.mail>
+Subject: [ticketee] alba - fdh
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_4e96ae3c20121_11da63add052917";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_4e96ae3c20121_11da63add052917
+Date: Thu, 13 Oct 2011 11:24:12 +0200
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4e96ae3c36124_11da63add0530d0@dev06.mail>
+
+
+
+Hello!
+
+diego@gmail.com (User) has just updated the fdh ticket for alba. They wrote:
+
+Tengo un comentario
+
+You can view this ticket online by going to:
+http://localhost:3000/projects/1/tickets/1
+
+
+
+----==_mimepart_4e96ae3c20121_11da63add052917
+Date: Thu, 13 Oct 2011 11:24:12 +0200
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <4e96ae3c47194_11da63add05314@dev06.mail>
+
+
+<img src='http://ticketeeapp.com/images/logo.png' alt='Ticketee' />
+
+<p>
+    Hello.
+</p>
+
+<p>
+    diego@gmail.com (User) has just updated the fdh ticket for alba. They wrote:</p>
+
+<blockquote>Tengo un comentario</blockquote>
+<p>
+You can <a href="http://localhost:3000/projects/1/tickets/1">view this ticket online here</a>
+</p>
+
+
+----==_mimepart_4e96ae3c20121_11da63add052917--
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[35m (588.7ms)[0m  DROP DATABASE IF EXISTS `ticketee_test`
+  [1m[36m (0.3ms)[0m  [1mCREATE DATABASE `ticketee_test` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[35m (124.7ms)[0m  CREATE TABLE `assets` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `asset_file_name` varchar(255), `asset_file_size` int(11), `asset_content_type` varchar(255), `asset_updated_at` datetime, `ticket_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (98.2ms)[0m  [1mCREATE TABLE `comments` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `text` text, `ticket_id` int(11), `user_id` int(11), `created_at` datetime, `updated_at` datetime, `state_id` int(11), `previous_state_id` int(11)) ENGINE=InnoDB[0m
+  [1m[35m (90.0ms)[0m  CREATE TABLE `permissions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `thing_id` int(11), `thing_type` varchar(255), `action` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (73.3ms)[0m  [1mCREATE TABLE `projects` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (77.7ms)[0m  CREATE TABLE `states` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `color` varchar(255), `background` varchar(255), `default` tinyint(1) DEFAULT 0) ENGINE=InnoDB
+  [1m[36m (81.4ms)[0m  [1mCREATE TABLE `tags` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [1m[35m (98.8ms)[0m  CREATE TABLE `tags_tickets` (`tag_id` int(11), `ticket_id` int(11)) ENGINE=InnoDB
+  [1m[36m (90.3ms)[0m  [1mCREATE TABLE `ticket_watchers` (`user_id` int(11), `ticket_id` int(11)) ENGINE=InnoDB[0m
+  [1m[35m (98.2ms)[0m  CREATE TABLE `tickets` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `title` varchar(255), `description` text, `project_id` int(11), `created_at` datetime, `updated_at` datetime, `user_id` int(11), `state_id` int(11)) ENGINE=InnoDB
+  [1m[36m (0.4ms)[0m  [1mSHOW KEYS FROM `tickets`[0m
+  [1m[35m (241.6ms)[0m  CREATE INDEX `index_tickets_on_project_id` ON `tickets` (`project_id`)
+  [1m[36m (0.5ms)[0m  [1mSHOW KEYS FROM `tickets`[0m
+  [1m[35m (234.3ms)[0m  CREATE INDEX `index_tickets_on_state_id` ON `tickets` (`state_id`)
+  [1m[36m (80.4ms)[0m  [1mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(128) DEFAULT '' NOT NULL, `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `created_at` datetime, `updated_at` datetime, `confirmation_token` varchar(255), `confirmed_at` datetime, `confirmation_sent_at` datetime, `admin` tinyint(1) DEFAULT 0) ENGINE=InnoDB[0m
+  [1m[35m (0.6ms)[0m  SHOW KEYS FROM `users`
+  [1m[36m (216.3ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)[0m
+  [1m[35m (0.6ms)[0m  SHOW KEYS FROM `users`
+  [1m[36m (233.3ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)[0m
+  [1m[35m (90.3ms)[0m  CREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.4ms)[0m  [1mSHOW KEYS FROM `schema_migrations`[0m
+  [1m[35m (250.2ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (47.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20111011115300')
+  [1m[36m (49.8ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20111010144146')[0m
+  [1m[35m (50.1ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20111010073248')
+  [1m[36m (49.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20111010112455')[0m
+  [1m[35m (49.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20111005074651')
+  [1m[36m (49.9ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20111005164140')[0m
+  [1m[35m (49.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20111003151731')
+  [1m[36m (49.9ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20111007073602')[0m
+  [1m[35m (49.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20111004135749')
+  [1m[36m (49.9ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20111007082714')[0m
+  [1m[35m (49.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20111010170741')
+  [1m[36m (49.8ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20111005134427')[0m
+  [1m[35m (49.9ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20111005082714')
+  [1m[36m (49.9ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20111005095012')[0m
+  [1m[35m (41.6ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20111010084941')
