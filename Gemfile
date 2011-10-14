@@ -11,6 +11,8 @@ gem 'therubyracer'
 
 gem 'rack', '1.3.3'
 
+
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -33,8 +35,9 @@ gem 'jquery-rails'
 
 
 group :test, :development do
-  gem 'rspec-rails', '~> 2.5'
   gem 'gmail'
+  gem 'rspec-rails', '~> 2.6'
+
 end
 
 group :test do

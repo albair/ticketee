@@ -7,13 +7,13 @@ Feature: Gmail
     Given there are the following users:
     | email                      | password |
     | alice@ticketee.com         | password |
-    |  | password |
+    | albaiglesiasruiz@gmail.com | password |
 
     And Action Mailer delivers via SMTP
     Given there is a project called "TextMate 2"
     And "alice@ticketee.com" can view the "TextMate 2" project
-    And "" can view the "TextMate 2" project
-    And "" has created a ticket for this project:
+    And "albaiglesiasruiz@gmail.com" can view the "TextMate 2" project
+    And "albaiglesiasruiz@gmail.com" has created a ticket for this project:
     | title        | description       |
     | Release date | TBA very shortly. |
 
@@ -28,6 +28,6 @@ Feature: Gmail
     Then I should see "Comment has been created."
     When I log into gmail with:
     | username                    | password     |
-    |   |    |
+    | albaiglesiasruiz@gmail.com  |    |
     Then there should be an email from Ticketee in my inbox
 
