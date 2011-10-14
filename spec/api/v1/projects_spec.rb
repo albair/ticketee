@@ -24,6 +24,7 @@ describe "/api/v1/projects", :type => :api do
       last_response.body.should eql(projects_json)
       last_response.status.should eql(200)
       projects = JSON.parse(last_response.body)
+
       projects.any? do |p|
         p["name"] == "Ticketee"
       end.should be_true
@@ -31,9 +32,15 @@ describe "/api/v1/projects", :type => :api do
       projects.any? do |p|
         p["name"] == "Access Denied"
       end.should be_false
-
-
     end
+
+    it "XML" do
+      get "#{url}.xml", :token => token
+      last_response.body.should eql(Project.readable_by(user).to_xml)
+      projects = Nokogiri::XML(last_response.body)
+      projects.css("project name").text.should eql("Ticketee")
+    end
+
 
   end
 
